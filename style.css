@@ -512,6 +512,9 @@ input {
         margin: 24px auto 0;
         font-size: 16px;
     } 
+    input[type="text"] {
+        font-size: 16px;
+    }
     input::placeholder {
         font-size: 16px;
     }
@@ -524,6 +527,7 @@ input {
     }
     .reg {
         display: block;
+        margin-bottom: -300px;
     }
 }
 
