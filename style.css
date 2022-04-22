@@ -1,0 +1,775 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #082032;
+}
+
+.wrapper {
+    display: flex;
+    overflow: hidden;
+}
+
+.content {
+    flex: 1 1 auto;
+}
+
+.container {
+    max-width: 1164px;
+    margin: auto;
+}
+
+.main {
+    font-family: 'Epilogue', sans-serif;
+    color: #D2D2D2;
+}
+
+.logo {
+    max-width: 87px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 167px;
+    position: relative; 
+    text-align: center;
+}
+
+.logo img {
+    width: 142px;
+}
+
+.intro {
+    display: flex;
+}
+
+.intro__left {
+}
+
+.intro__left-title {
+    font-size: 64px;
+    width: 517px;
+    line-height: 66px;
+}
+
+.intro__left-btn {
+    background: #FF4C29;
+    border-radius: 90px;
+    width: 329px;
+    height: 65px;
+    font-size: 32px;
+    color: #D2D2D2;
+    outline: none;
+    border: none;
+    margin-top: 116px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.intro__left-btn:hover {
+    background: #F23915;
+}
+
+.intro__left-btn:active {
+    background: #E02C09;
+    transform: scale(0.95);
+}
+
+.intro__right img{
+    position: absolute;
+    right: 0;
+    height: auto;
+}
+
+.orange {
+    color: #FF4C29;
+}
+
+.shadow {
+    background: #041624;
+    filter: blur(50px);
+    width: 612px;
+    position: absolute;
+    left: 1470px;
+    top: 915px;
+    height: 65px;
+}
+
+.pokras-lampas {
+    margin-top: 384px;
+}
+
+.pokras-lampas-text {
+    font-size: 44px;
+    margin-bottom: 56px;
+}
+
+.pokras-lampas-img img{
+    width: 100%;
+}
+
+.our-advantages {
+    font-size: 44px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.advantages {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantage {
+    text-align: center;
+    margin-top: 64px;
+    width: 360px;
+}
+
+.advantage__title {
+    font-size: 32px;
+    margin-top: 24px;
+}
+
+.advantage__sub {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.sales {
+    background-color: #334756;
+    min-height: 214px;
+    margin-top: 200px;
+}
+
+.sales__text {
+    font-size: 52px;
+    text-align: center;
+    width: 302px;
+    padding-top: 54px;
+    margin: auto;
+}
+
+.legs {
+    display: flex;
+}
+
+.man img {
+    position: relative;
+    top: -213px;
+    left: -130px;
+}
+
+.woman img {
+    position: relative;
+    top: -213px;
+    left: 180px;
+}
+
+.order {
+    font-size: 44px;
+    text-align: center;
+    margin-top: -200px;
+}
+
+.steps {
+    display: flex;
+}
+
+.step {
+    padding-top: 64px;
+    font-size: 32px;
+}
+
+.hr-orange {
+    border: 2px solid #FF4C29;
+    background-color: #FF4C29;
+    transform: rotate(90deg);
+    height: 100px;
+    position: relative;
+    top: 55px;
+}
+
+.reg {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.reg__left {
+    width: 100%;
+}
+
+.reg__title {
+    font-size: 60px;
+    width: 499px;
+    margin-top: 200px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 56px;
+    margin-left: 30px;
+}
+
+input {
+    background: #334756;
+    border-radius: 90px;
+    max-width: 374px;
+    height: 65px;
+    outline: none;
+    margin-bottom: 20px;
+    border: none;
+    color: #D2D2D2;
+}
+
+.reg__right {
+    padding-top: 160px;
+    margin-right: -40px;
+}
+
+.form-btn {
+    background: #FF4C29;
+    border-radius: 90px;
+    width: 400px;
+    height: 61px;
+    color: #D2D2D2;
+    font-size: 28px;
+    outline: none;
+    border: none;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.name::placeholder, .email::placeholder {
+    font-family: 'Epilogue';
+    color: #D2D2D2;
+}
+
+.form-btn:hover {
+    background: #F23915;
+}
+
+.form-btn:active {
+    background: #E02C09;
+    transform: scale(0.95);
+}
+
+.name, .email {
+    font-size: 24px;
+    padding-left: 24px;  
+    width: 400px;        
+}
+
+.footer {
+    background: #334756;
+    height: 190px;
+    font-family: 'Epilogue';
+    color: #D2D2D2;
+    padding-top: 100px;
+    max-width: 100%;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__left {
+    max-width: 200px;
+}
+.working-ours {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.hours {
+    font-size: 28px;
+}
+.footer__center {
+    max-width: 260px;
+}
+.address {
+    font-size: 24px;
+}
+.footer__right {
+    display: flex;
+    align-items: center;
+}
+.follow {
+    font-size: 24px;
+    margin-right: 42px;
+    vertical-align: middle;
+}
+.inst {
+    width: 60px;
+    height: 60px;
+    margin-right: 42px;
+    cursor: pointer;
+}
+.fbook {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+@media (max-width: 1230px) {
+    .man img, .woman img{
+        transform: scale(0.9);
+    }
+    .man img {
+        top: -233px;
+    }
+    .woman img {
+        top: -236px;
+    }
+}
+
+@media (max-width: 1180px) {
+    .man img, .woman img{
+        transform: scale(0.8);
+    }
+    .man img {
+        top: -253px;
+    }
+    .woman img {
+        top: -257px;
+    }
+}
+
+@media (max-width: 1160px) {
+    .man img, .woman img{
+        transform: scale(0.7);
+    }
+    .man img {
+        top: -271px;
+    }
+    .woman img {
+        top: -279px;
+    }
+}
+
+@media (max-width: 1133px) {
+    .man img {
+        top: -271px;
+        left: -150px;
+    }
+    .woman img {
+        top: -279px;
+        left: 150px;
+    }
+}
+
+
+@media (max-width: 1107px) {
+    .man img {
+        top: -271px;
+        left: -120px;
+    }
+    .woman img {
+        top: -279px;
+        left: 120px;
+    }
+    .steps {
+        display: block;
+        text-align: center;
+    }
+    .hr-orange {
+        transform: rotate(-90deg);
+        height: 0px;
+        width: 100px;
+        top: 30px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .man img {
+        top: -271px;
+        left: -100px;
+    }
+    .woman img {
+        top: -279px;
+        left: 100px;
+    }
+}
+
+
+@media (max-width: 1060px) {
+    .container {
+        max-width: 1015px;
+    }
+    .advantages {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .advantage {
+        margin: 40px auto;
+        text-align: center;
+    }
+    .man img {
+        top: -271px;
+        left: -80px;
+    }
+    .woman img {
+        top: -279px;
+        left: 80px;
+    }
+}
+
+@media (max-width: 1048px) {
+    .man img {
+        top: -271px;
+        left: -60px;
+    }
+    .woman img {
+        top: -279px;
+        left: 20px;
+    }
+}
+
+@media (max-width: 1014px) {
+    .container {
+        max-width: 980px;
+        padding: 18px;
+    }
+    .intro__left-title {
+        font-size: 40px;
+        width: 340px;
+        line-height: 41px;
+    }
+    .intro__right img{
+        height: 347px;
+    }
+    .intro__left-btn {
+        margin-top: 30px;
+    }
+    .pokras-lampas-img img{
+        text-align: center;
+    }
+    .advantages {
+        text-align: center;
+    }
+    .sneak {
+        height: 40px;
+        width: 40px;
+        margin: auto;
+    }
+    .man img {
+        top: -288px;
+        left: -80px;
+    }
+    .woman img {
+        top: -296px;
+        left: 0px;
+    }
+}
+
+@media (max-width: 979px) {
+    .container {
+        max-width: 912px;
+    }
+    .advantages {
+        font-size: 32px;
+    }
+    .advantage__title {
+        font-size: 24px;
+    }
+    .advantage__sub {
+        font-size: 16px;
+    }
+    .sales__text {
+        font-size: 32px;
+        max-width: 192px;
+    }
+    .step {
+        font-size: 20px;
+    }
+    .hr-orange {
+        margin: 50px auto;
+    }
+    .reg__title {
+        font-size: 36px;
+        max-width: 340px;
+        text-align: center;
+        margin: auto;
+        margin-top: 150px;
+    }
+    .order {
+        font-size: 32px;
+    }
+    .man img, .woman img{
+        transform: scale(0.5);
+    }
+    .man img {
+        top: -325px;
+        left: -80px;
+    }
+    .woman img {
+        top: -339px;
+        left: -80px;
+    }
+    .reg__left {
+        position: relative;
+        z-index: 1;
+    }
+    input, .form button {
+        margin: 24px auto 0;
+        font-size: 16px;
+    } 
+    input::placeholder {
+        font-size: 16px;
+    }
+    .reg__right {
+        position: relative;
+        z-index: 0;
+        top: -400px;
+        margin: auto;
+        text-align: center;
+    }
+    .reg {
+        display: block;
+    }
+}
+
+@media (max-width: 910px) {
+    .container {
+        max-width: 881px;
+    }
+    .woman img {
+        top: -339px;
+        left: -120px;
+    }
+    .footer__right {
+        display: none;
+    }
+}
+
+@media (max-width: 880px) {
+    .container {
+        max-width: 800px;
+    }
+    .woman img {
+        top: -339px;
+        left: -180px;
+    }
+}
+
+@media (max-width: 840px) {
+    .container {
+        max-width: 741px;
+    }
+    .woman img {
+        top: -339px;
+        left: -250px;
+    }
+}
+
+@media (max-width: 740px) {
+    .container {
+        max-width: 720px;
+    }
+    .intro__left-btn {
+        width: 215px;
+        height: 48px;
+        font-size: 16px;
+        margin-top: 36px;
+    }
+    .pokras-lampas {
+        max-width: 345px;
+    }
+    .pokras-lampas-text {
+        font-size: 32px;
+    }
+    .intro {
+        display: block;
+        margin-bottom: 100px;
+    }
+    .intro__right {
+        margin-top: 100px;
+    }
+    .pokras-lampas {
+        margin-top: 500px;
+    }
+    .man img, .woman img{
+        transform: scale(0.35);
+    }
+    .man img {
+        top: -354px;
+        left: -80px;
+    }
+    .woman img {
+        top: -371px;
+        left: -300px;
+    }
+}
+
+@media (max-width: 719px) {
+    .container {
+        max-width: 660px;
+    }
+    .man img {
+        top: -354px;
+        left: -80px;
+    }
+    .woman img {
+        top: -371px;
+        left: -330px;
+    }
+}
+
+@media (max-width: 670px) {
+    .container {
+        max-width: 600px;
+    }
+    .man img {
+        top: -354px;
+        left: -110px;
+    }
+    .woman img {
+        top: -371px;
+        left: -360px;
+    }
+}
+
+@media (max-width: 630px) {
+    .container {
+        max-width:600px;
+    }
+    
+}
+
+@media (max-width: 610px) {
+    .container {
+        max-width: 540px;
+    }
+    .man img {
+        top: -354px;
+        left: -140px;
+    }
+    .woman img {
+        top: -371px;
+        left: -390px;
+    }
+    input {
+        max-width: 313px;
+    }
+    .form button {
+        max-width: 339px;
+    }
+}
+
+@media (max-width: 550px) {
+    .container {
+        max-width: 480px;
+    }
+    .man img {
+        top: -354px;
+        left: -170px;
+    }
+    .woman img {
+        top: -371px;
+        left: -420px;
+    }
+    .reg__right img {
+        width: 260px;
+        height: 302.41px;
+    }
+    .reg__right {
+        top: -340px;
+        left: 90px;
+    }
+}
+
+@media (max-width: 520px) {
+    .container {
+        max-width: 420px;
+    }
+    .reg {
+        position: relative;
+        left: -10px;
+    }
+    .working-ours, .address, .hours {
+        font-size: 16px;
+    }
+    .address {
+        max-width: 160px;
+    }
+    .footer {
+        height: 125px;
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 490px) {
+    .container {
+        max-width: 420px;
+    }
+    .man img {
+        top: -354px;
+        left: -200px;
+    }
+    .woman img {
+        top: -371px;
+        left: -450px;
+    }
+}
+
+@media (max-width: 443px) {
+    .container {
+        max-width: 370px;
+    }
+    .man img {
+        top: -354px;
+        left: -230px;
+    }
+    .woman img {
+        top: -371px;
+        left: -480px;
+    }
+    .reg {
+        left: -20px;
+    }
+}
+
+@media (max-width: 417px) {
+    .container {
+        max-width: 360px;
+    }
+    .man img {
+        top: -354px;
+        left: -230px;
+    }
+    .woman img {
+        top: -371px;
+        left: -480px;
+    }
+}
+
+@media (max-width: 390px) {
+    .container {
+        max-width: 350px;
+    }
+    .man img {
+        top: -354px;
+        left: -240px;
+    }
+    .woman img {
+        top: -371px;
+        left: -490px;
+    }
+}
+
+@media (max-width: 380px) {
+    .container {
+        max-width: 340px;
+    }
+    .man img {
+        top: -354px;
+        left: -250px;
+    }
+    .woman img {
+        top: -371px;
+        left: -500px;
+    }
+    .reg {
+        position: relative;
+        left: -33px;
+    }
+}
+
