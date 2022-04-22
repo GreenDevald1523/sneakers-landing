@@ -477,6 +477,9 @@ input {
         font-size: 32px;
         max-width: 192px;
     }
+    .logo img {
+        width: 87px;
+    }
     .step {
         font-size: 20px;
     }
